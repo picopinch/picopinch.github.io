@@ -5,31 +5,73 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="libs/particles.js"></script>
+    <script src="libs/typewriter.js"></script>
     <script src="scripts.js"></script>
   </head>
 
   <body>
     <div id="root">
       <div id="hero">
-          <div id="navigation-bar">
-            <img src="images/logo.svg">
-            <span id="logo-text">picopinch</span>
-            <span class="spacer"></span>
-            <span class="nav-link">HOME</span>
-            <span class="nav-link">ABOUT</span>
-            <span class="nav-link">CONTACT</span>
-          </div>
+        <div id="hero-overlay"></div>
 
-          <div id="particles-primary"></div>
-          <div id="particles-secondary"></div>
+        <div id="navigation-bar">
+          <img src="./images/logo.svg">
+          <span id="logo-text">picopinch</span>
+          <span class="spacer"></span>
+          <a class="nav-link" href="#hero">Home</a>
+          <a class="nav-link" href="#body">About</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+
+        <div id="particles-primary"></div>
+        <div id="particles-secondary"></div>
+
+        <div id="greeting">
+          <span id="welcome" class="typewriter"></span>
+          <span id="phrase">Picopinch is a nimble and focused application design & development studio.</span>
+        </div>
       </div>
 
       <div id="body">
-
+        <h1>EXPERTISE</h1>
+        <div class="wrapper">
+          <span class="detail">
+            <img src="./images/design.svg">
+            <h2>Design: UI & UX</h2>
+            <p>Any type of experience starts with the eye - we believe great design and user experience is crucial in bringing our projects to fruition. Our work doesn't stop at mobile apps, web applications, or multi‑platform digital experiences. Picopinch creates custom designs that are human-centered and provide delight to users.</p>
+          </span>
+          <span class="dividerWrapper"n>
+            <div id="dividerTop"></div>
+            <div id="circle"></div>
+            <div id="dividerBottom"></div>
+          </span>
+          <span class="detail">
+            <img src="./images/development.svg">
+            <h2>Development</h2>
+            <p>Armed with cutting-edge engineering, our projects boasts perfection, second to none. We develop for the now and build for the future. Mobile to enterprise-scale apps, our work is always built for reliability, flexibility, and scale.</p>
+          </span>
+        </div>
       </div>
 
       <div id="contact">
-        
+        <h1>GET IN TOUCH!</h1>
+        <p id="invite">The Picopinch team is dedicated to uphold the highest standards of quality for all projects. Drop us a line - we're always more than happy to help.</p>
+        <p id="email-container">
+          <span>hello</span>
+          <span id="email-at">[at]</span>
+          <span>picopinch.com</span>
+        </p>
+
+        <div id="footer">
+          <span id="heart" class="heartbeat"></span>
+          <p id="copyright">&copy; 2020 Picopinch LLC <br />
+            Design & Development
+          </p>
+          <p id="misc">
+            Version: 1.0.0<br>
+            Last Updated: Aug 31, 2020<br>
+          </p>  
+        </div>
       </div>
 
 
