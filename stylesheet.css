@@ -1,0 +1,40 @@
+/*===========FONTS==============*/
+  @font-face {
+    font-family: Gotham-Light;
+    src: url(./fonts/Gotham-Light.otf);
+  }
+  @font-face {
+    font-family: GothamMedium;
+    src: url(./fonts/GothamMedium.ttf);
+  }
+  @font-face {
+    font-family: GothamBook;
+    src: url(./fonts/GothamBook.ttf);
+  }
+
+  @font-face {
+    font-family: RoxboroughCF-Light;
+    src: url(./fonts/RoxboroughCF-Light.otf);
+  }
+  @font-face {
+    font-family: RoxboroughCF-Regular;
+    src: url(./fonts/RoxboroughCF-Regular.otf);
+  }
+  @font-face {
+    font-family: RoxboroughCF-Bold;
+    src: url(./fonts/RoxboroughCF-Bold.otf);
+  }
+  @font-face {
+    font-family: RoxboroughCF-LightItalic;
+    src: url(./fonts/RoxboroughCF-LightItalic.otf);
+  }
+  @font-face {
+    font-family: RoxboroughCF-ThinItalic;
+    src: url(./fonts/RoxboroughCF-ThinItalic.otf);
+  }
+
+  @font-face {
+    font-family: LibreBaskerville-Regular;
+    src: url(./fonts/LibreBaskerville-Regular.ttf);
+  }
+/*==============================*/
